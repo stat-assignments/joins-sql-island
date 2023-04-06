@@ -1,11 +1,7 @@
 ---
 title: "Homework 11: SQL Island"
 author: "Your Name"
-date: "Due: April 14, 2023"
-categories: hw
-format:
-  html:
-    theme: default
+format: html
 ---
 
 Note: This is almost a direct transcript of a game available at https://sql-island.informatik.uni-kl.de/.
@@ -19,14 +15,18 @@ Be sure to use your full name on the certificate.
 
 You've been stranded on SQL Island!
 
-```{r}
+```{r test1, include = F, eval = F}
+# Note: Change the chunk option above to eval = T when you compile your file
+
 villages <- read.delim("villages.tsv")
 inhabitant <- read.delim("inhabitant.tsv")
 items <- read.delim("items.tsv")
 ```
 
 
-```{python}
+```{python test2, include = F, eval = F}
+# Note: Change the chunk option above to eval = T when you compile your file
+
 import pandas as pd
 villages = pd.read_table("villages.tsv")
 inhabitant = pd.read_table("inhabitant.tsv")
